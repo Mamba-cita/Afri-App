@@ -1,0 +1,177 @@
+!--  
+
+<div class="sidebar ">
+    <div class="logo">
+        <i class='bx bxs-truck'></i>
+        <span class="logo-mini"><b>AFRI</b>_Limited</span>
+        <a href="">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="">
+        </a>
+    </div>
+
+       <ul class="nav-links">
+        
+        <li >
+        <div class="icon-link">
+        
+            <a class="nav-tag" href="">
+                <i class='bx bxs-truck'></i>
+                <span class="link_name">Shipments</span>
+              
+            </a> 
+        </div>
+        
+        </li>
+        <li >
+        <div class="icon-link">
+                <a class="nav-tag" href="">
+                    <i class='bx bxs-dashboard' ></i>
+                    <span class="link_name">Dashboard</span>
+                  
+                </a>
+                <i class='bx bx-caret-down-square square' ></i>
+            </div>
+            
+
+    <ul class="sub-menu">
+    
+       <li>
+           <a href="">
+            <i class='bx bxs-inbox' ></i>
+               Inbound
+           </a>
+       </li>
+       <li>
+           <a href="">
+            <i class='bx bx-cart-add' ></i>
+             Loading
+           </a>
+       </li>
+       <li>
+           <a href="">
+            <i class='bx bx-car' ></i>
+               Enroute
+           </a>
+       </li>
+       <li>
+           <a href="">
+            <i class='bx bxs-cart-download' ></i>
+               Offloading
+           </a>
+       </li>
+   
+       <li>
+           <a href="">
+            <i class='bx bxs-component' ></i>
+               <span class="link_name">Delivered</span>
+           </a>
+       </li>
+       <li>
+           <a href="">
+            <i class='bx bx-money-withdraw'></i>
+               Pending Invoice
+           </a>
+       </li>
+       <li>
+           <a href="">
+            <i class='bx bxs-wallet-alt' ></i>
+              Invoiced
+           </a>
+       </li>
+       <li>
+        <a href="">
+            <i class='bx bxs-bank' ></i>
+           Paid
+        </a>
+    </li>
+       </ul>
+
+        </li>
+            <li >
+                <a class="nav-tag" href="">
+                    <i class='bx bxs-bell-ring'></i>
+                    <span class="link_name">Notifications</span>
+                </a>
+            </li>
+            <li >
+            <div class="icon-link">
+                
+                    <a class="nav-tag" href="">
+                        <i class='bx bxs-building-house'></i>
+                        <span class="link_name">System_Mg</span>
+                     
+                    </a>
+                    <i class='bx bx-caret-down-square square' ></i>
+                 
+                </div>
+                <ul class="sub-menu">
+    
+                    <li>
+                        <a href="">
+                            <i class='bx bxs-business'></i>
+                            Clients
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class='bx bxs-truck'></i>
+                          Assets
+                        </a>
+                    </li>
+                 
+                   
+                    </ul>
+                 
+
+                </li>
+                <li >
+                    <a class="nav-tag" href="">
+                        <i class='bx bx-bar-chart-alt'></i>
+                        <span class="link_name">Analytics</span>
+                    </a>
+          </li>
+
+        <li >
+         
+            <a class="nav-tag" href="">
+                <i class='bx bx-book-reader'></i>
+                <span class="link_name">Admin</span>
+            </a>
+          
+
+  </li>
+       
+  <li>
+<div class="profile-details">
+  
+    <div class="profile-img">
+        <img src="{{ url_for('static', filename='img/profile.png') }}" alt="">
+    </div>
+ 
+    <div class="profile-info">
+        <div class="profile-name">
+            <h6 class="mb-0">Edwin John</h6>
+    </div>
+<div class="job">
+    <h6 class="mb-0">Web Developer</h6>
+</div>
+</div>
+<li class="mt-5">
+    <a class="nav-tag" href="">
+        <i class='bx bx-log-out' ></i>
+        <span >Logout</span>
+    </a>
+</li>
+</li>
+
+
+</ul>
+</div>
+<section class="home-section">
+    <div class="home-content">
+        <i class="bx bx-menu"></i>
+        <span class="text">Dropdown sidebar</span>
+
+</div>
+</section>
+-->
