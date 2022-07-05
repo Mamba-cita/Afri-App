@@ -1,0 +1,162 @@
+<div class="container-fluid bg-dark">
+    <div class="row py-2 px-lg-5">
+        <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center text-white">
+                <small><i class="fa fa-phone-alt mr-2"></i>+254 7000000</small>
+                <small class="px-3">|</small>
+                <small><i class="fa fa-envelope mr-2"></i>afriraising.limited@gmail.com</small>
+                <small class="px-3">|</small>
+                <small><i class="fa fa-envelope mr-2"></i>Kenya</small>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="sidebar close">
+        <div class="logo-details">
+            <i class='bx bxs-truck'></i>
+          <span class="logo_name">AFRI LIMITED</span>
+        </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">
+                <i class='bx bxs-truck'></i>
+              <span class="link_name">Shipments</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Dashboard</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bxs-dashboard' ></i>
+                <span class="link_name">Dashboard</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">Dashboard</a></li>
+              <li>
+                <a href="">
+                 <i class='bx bxs-inbox' ></i>
+                    Inbound
+                </a>
+            </li>
+            <li>
+                <a href="">
+                 <i class='bx bx-cart-add' ></i>
+                  Loading
+                </a>
+            </li>
+
+            <li>
+                <a href="">
+                 <i class='bx bx-car' ></i>
+                    Enroute
+                </a>
+            </li>
+            <li>
+                <a href="">
+                 <i class='bx bxs-cart-download' ></i>
+                    Offloading
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bxs-component' ></i>
+                    Delivered
+                </a>
+            </li>
+            <li>
+                <a href="">
+                 <i class='bx bx-money-withdraw'></i>
+                    Pending <br> Invoice
+                </a>
+            </li>
+            <li>
+                <a href="">
+                 <i class='bx bxs-wallet-alt' ></i>
+                   Invoiced
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bxs-bank' ></i>
+                   Paid
+                </a>
+            </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class='bx bx-pie-chart-alt-2' ></i>
+              <span class="link_name">Analytics</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Analytics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bxs-bell-ring'></i>
+              <span class="link_name">Notifications</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Notifications</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="iocn-link">
+              <a href="#">
+                <i class='bx bxs-building-house'></i>
+                <span class="link_name">System_Mg</span>
+              </a>
+              <i class='bx bxs-chevron-down arrow' ></i>
+            </div>
+            <ul class="sub-menu">
+              <li><a class="link_name" href="#">System_Mg</a></li>
+              <li>
+                <a href="">
+                    <i class='bx bxs-business'></i>
+                    Clients
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class='bx bxs-truck'></i>
+                  Assets
+                </a>
+            </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-bar-chart-alt'></i>
+              <span class="link_name">Analytics</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Analytics</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+                <i class='bx bx-book-reader'></i>
+              <span class="link_name">Admin</span>
+            </a>
+            <ul class="sub-menu blank">
+              <li><a class="link_name" href="#">Admin</a></li>
+            </ul>
+          </li>
+          <li>
+        <div class="profile-details">
+          <div class="profile-content">
+            <img src="{{ url_for('static', filename='img/profile.png') }}" alt="">
+          </div>
+          <div class="name-job">
+            <div class="profile_name">Edwin John</div>
+            <div class="job">Web Developer</div>
+          </div>
+          <i class='bx bx-log-out' ></i>
+        </div>
+      </li>
+    </ul>
