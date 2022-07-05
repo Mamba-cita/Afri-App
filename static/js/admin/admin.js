@@ -1,3 +1,2 @@
-
-console.log ('admin.js');
+console.log ('Hello World');
 
