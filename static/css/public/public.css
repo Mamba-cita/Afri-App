@@ -301,7 +301,7 @@ body {
 .sidebar .profile-details {
   position: fixed;
   bottom: 0;
-  width: 200px;
+  width: 208px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
