@@ -20,6 +20,11 @@ def admin():
     return render_template('admin/admin.html')
 
 
+@app.route('/admin/login', methods=['GET', 'POST'])
+def login():
+    return render_template('admin/templates/users/templates/login.html')
+
+
 
 
 
