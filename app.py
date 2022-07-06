@@ -14,22 +14,11 @@ def home():
 
 
 
-
-@app.route('/admin')
-def admin():
-    return render_template('admin/admin.html')
-
-
-@app.route('/admin/login', methods=['GET', 'POST'])
+@app.route('/login')
 def login():
     return render_template('admin/templates/users/templates/login.html')
 
 
-
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    # app.run(host='
-    
-    
+@app.route('/register')
+def register():
+    return render_template('admin/templates/users/templates/register.html')
