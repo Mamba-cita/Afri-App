@@ -9,7 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
-    href="{{ url_for('static', filename='css/admin/login.css') }}"
+    href="{{ url_for('static', filename='css/admin/register.css') }}"
   />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -22,20 +22,21 @@
 
 <div class="overlay"></div>
 
-<form class="form-input" action="{{ url_for('login') }}" method="POST">
+<form class="form-input" action="{{ url_for('register') }}" method="POST">
 
     <div class="header">
         <h1>AFRI RAISING</h1>
-        <p>Login to your account</p>
+        <p>Thank You For Choosing The Best</p>
         </div>
         <div class="login-area">
+        <input type="text" class="username" name="username" placeholder="Username" />
         <input type="email" class="email" name="email" placeholder="Email" />
         <input type="password" class="password" name="password" placeholder="Password" />
-        <input type="submit" class="btn" value="Login" />
+        <input type="submit" class="btn" value="Register" />
         </div>
         <div class="footer">
-        <p>Don't have an account? </p>
-        <a href="{{url_for('register')}}">Register</a>
+        <p>Already Registered? </p>
+        <a href="{{url_for('login')}}">Login</a>
         </div>
 
 </form>
