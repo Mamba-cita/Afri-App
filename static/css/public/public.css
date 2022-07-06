@@ -301,7 +301,7 @@ body {
 .sidebar .profile-details {
   position: fixed;
   bottom: 0;
-  width: 200px;
+  width: 208px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,7 @@ body {
 }
 
 .main-content .content-area {
-  padding: 10px 20px;
+  padding: 10px 5px;
 }
 
 .sidebar.close ~ .main-content {
@@ -400,6 +400,7 @@ body {
   .main-content {
     left: 78px;
     width: calc(100% - 78px);
+    width: 100%;
     z-index: 100;
   }
   .sidebar.close ~ .main-content {

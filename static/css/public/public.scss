@@ -240,7 +240,7 @@ body {
 .sidebar .profile-details {
   position: fixed;
   bottom: 0;
-  width: 200px;
+  width: 208px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -290,11 +290,13 @@ body {
   position: absolute;
   height: 100%;
   width: calc(100% - 240px);
+ // width: 100%;
   left: 240px;
   transition: all 0.5s ease;
 
+
   .content-area {
-    padding: 10px 20px;
+    padding: 10px 5px ;
   }
 }
 
@@ -315,7 +317,8 @@ body {
   }
   .main-content {
     left: 78px;
-    width: calc(100% - 78px);
+  width: calc(100% - 78px);
+    width: 100%;
     z-index: 100;
   }
   .sidebar.close ~ .main-content {
