@@ -19,20 +19,35 @@
     />
   </head>
   <body>
+    <div class="container w-50">
+      {% with messages=get_flashed_messages(with_categories=true) %}
+      {% if messages%}
+      {% for category, messages in messages %}
+      <div class="alert alert-{{ category }}">
+        {% for message in messages %}
+        {{ message }}
+        {% endfor %}
+      </div>
+      {% endfor %}
+      {% endif %}
+      {% endwith %}
+      </div>
+
 
 <div class="overlay"></div>
 
 <form class="form-input" action="{{ url_for('register') }}" method="POST">
-
+  {{ form.hidden_tag()}}
     <div class="header">
         <h1>AFRI RAISING</h1>
         <p>Thank You For Choosing The Best</p>
         </div>
         <div class="login-area">
-        <input type="text" class="username" name="username" placeholder="Username" />
-        <input type="email" class="email" name="email" placeholder="Email" />
-        <input type="password" class="password" name="password" placeholder="Password" />
-        <input type="submit" class="btn" value="Register" />
+          {{form.username (class="username",placeholder="Username")}}
+          {{form.email (class="email", placeholder="Email")}}
+          {{form.password (class="password",placeholder="Password")}}
+          {{form.confirm_password (class="password",placeholder="Confirm Password")}}
+          {{form.submit (class="btn")}}
         </div>
         <div class="footer">
         <p>Already Registered? </p>
