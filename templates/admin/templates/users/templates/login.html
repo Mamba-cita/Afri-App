@@ -33,15 +33,16 @@
 
     <div class="overlay"></div>
 
-    <form class="form-input" action="{{ url_for('login') }}" method="POST">
+    <form class="form-input" action="{{ url_for('process') }}" method="POST">
       <div class="header">
         <h1>AFRI RAISING</h1>
         <p>Login to your account</p>
       </div>
       {{ form.hidden_tag() }}
       <div class="login-area">
-        {{ form.email (class="email" ,placeholder="Email" )}} {{ form.password
-        (class="password", placeholder="Password") }} {{ form.submit
+        {{ form.email (class="email" ,placeholder="email" )}} 
+        {{ form.password (class="password", placeholder="Password",) }}
+         {{ form.submit
         (class="btn" ,value="Login") }}
       </div>
       <div class="footer">
@@ -49,6 +50,7 @@
         <a href="{{url_for('register')}}">Register</a>
       </div>
     </form>
+  
 
     <footer class="footer2">
       <div class="fixed-bottom">
