@@ -38,7 +38,7 @@
     <div class="overlay"></div>
     
 
-    <form class="form-input" action="" method="POST">
+    <form class="form-input" action="{{ url_for('client_process') }}"  method="POST">
       <div class="header">
         <h1>AFRI RAISING</h1>
         <p>Login to your account</p>
@@ -52,7 +52,7 @@
       </div>
       <div class="footer">
         <p>Don't have an account?</p>
-        <a href="{{url_for('register_client')}}">Register</a>
+        <a href="{{url_for('client_register')}}">Register</a>
       </div>
     </form>
   
